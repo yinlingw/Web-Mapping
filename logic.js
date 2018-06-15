@@ -34,17 +34,11 @@ function createMap(earthquakes) {
 
 
     // Define layer to the map
-    var outdoors = L.tileLayer("https://api.mapbox.com/styles/v1/sharonsu94/cjfaejrjk64vi2so639ehc5k0/tiles/256/{z}/{x}/{y}?" +
-    "access_token=pk.eyJ1Ijoic2hhcm9uc3U5NCIsImEiOiJjamV2b3AxaWQwcDc5MzJwc2o0ZjhlNzR1In0." +
-    "VjlbqszIZOjTP0T1d-Y9Aw");
+    var outdoors = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicG9pc3NvbnEiLCJhIjoiY2poeG50YmV3MGM0aTNrdWxuZ3FuYXN4NyJ9.KhR7WRWA64C7e8jFg3ZOpw");
   
-    var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/sharonsu94/cjfael7sy04en2rlm9nb8uyvq/tiles/256/{z}/{x}/{y}?" +
-    "access_token=pk.eyJ1Ijoic2hhcm9uc3U5NCIsImEiOiJjamV2b3AxaWQwcDc5MzJwc2o0ZjhlNzR1In0." +
-    "VjlbqszIZOjTP0T1d-Y9Aw");
+    var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicG9pc3NvbnEiLCJhIjoiY2poeG50YmV3MGM0aTNrdWxuZ3FuYXN4NyJ9.KhR7WRWA64C7e8jFg3ZOpw");
 
-    var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/sharonsu94/cjfaegj8s03ls2sphts1zdr4q/tiles/256/{z}/{x}/{y}?" +
-    "access_token=pk.eyJ1Ijoic2hhcm9uc3U5NCIsImEiOiJjamV2b3AxaWQwcDc5MzJwc2o0ZjhlNzR1In0." +
-    "VjlbqszIZOjTP0T1d-Y9Aw");
+    var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicG9pc3NvbnEiLCJhIjoiY2poeG50YmV3MGM0aTNrdWxuZ3FuYXN4NyJ9.KhR7WRWA64C7e8jFg3ZOpw");
     
       // Define base maps
     var baseMaps = {
